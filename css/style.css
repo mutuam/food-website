@@ -42,12 +42,19 @@ header{
     transition:all.52s ease;
 }
 
-.logo img{
-    width:40px;
+ header .logo{
+   /* width:40px;
     max-width:100%;
-    height:auto;
-  
+    height:auto;*/
+    font-size:2.5rem;
+    font-weight:bolder;
+    color:var(--main-color);
   }
+
+  .header .logo i{
+    color:var(--text-color);
+    padding-right:.5rem;
+}
 
   .navlist{
     display:flex;
@@ -150,10 +157,11 @@ section{
     color:var(--other-color);
     margin-bottom:3rem;
 }
-.home-btnn{
+.home-btn{
     display:inline-flex;
     align-items:center;
     justify-content:center;
+    margin-top:150px;
 }
 .btn{
     display:inline-block;
